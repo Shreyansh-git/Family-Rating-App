@@ -1,0 +1,101 @@
+.container1{
+    margin: 40px;
+    display: flex;
+    align-items: center;
+}
+.list1{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+.list{
+    border: 1px solid brown;
+    background-color: beige;
+    border-radius: 4px;
+    width: fit-content;
+    height: fit-content;
+    padding: 20px;
+    margin: 4px;
+    margin-left: 20px;
+    cursor: grabbing;
+
+
+}
+.typesOfRel{
+    font-size: larger;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 50px;
+    width: 100px;
+    text-align: center;
+
+}
+.Pyaar{
+    background-color: green;
+}
+.Achhe{
+    background-color: yellow;
+}
+.Sahi{
+    background-color: aqua;
+}
+.Kaleshi{
+    background-color: blueviolet;
+}
+.Mar{
+    background-color: red;
+}
+.listt{
+    display: flex;
+    align-items: center;
+    border: 2px solid wheat;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+/* .headerComp{
+    text-align: center;
+    
+    height: 80px;
+    font-size: x-large;
+    
+
+} */
+.headerComp h1 {
+    text-align: center;
+    background-color: antiquewhite;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    /* border-right: .15em solid orange; The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+      typing 3.5s steps(40, end),
+      blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+from { width: 0 }
+to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+from, to { border-color: transparent }
+50% { border-color: orange; }
+}
+
+.replayBtn{
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 25px;
+}
+.btnIn{
+    padding: 20px;
+    padding-inline: 50px;
+    color: darkred;
+    background-color: cadetblue;
+
+}
